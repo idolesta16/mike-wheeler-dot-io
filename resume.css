@@ -77,8 +77,8 @@ address {
 .indent-box-education {
   display: grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 0.5em;
-  grid-row-gap: 1px;
+  grid-column-gap: 1em;
+  grid-row-gap: 0.3em;
 }
 
 .indent-box-education > .subsection-header {
