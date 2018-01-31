@@ -52,6 +52,11 @@ nav {
   justify-content: space-around;
 }
 
+.nav-link > a {
+  text-decoration: none;
+  color: white;
+}
+
 .active:hover {
   background-color: green;
 }

@@ -23,7 +23,9 @@ footer {
 }
 
 .big-name {
-  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .three-pane-container {
@@ -31,7 +33,7 @@ footer {
   flex-flow: row nowrap;
   overflow: hidden;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .three-pane-container > div, .three-pane-container > address {
