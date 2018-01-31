@@ -133,6 +133,14 @@ address {
     font-size: 0.75em;
   }
 
+  .left-indent {
+    justify-self: start;
+  }
+
+  .right-indent {
+    justify-self: end;
+  }
+
 }
 
 @media print {
