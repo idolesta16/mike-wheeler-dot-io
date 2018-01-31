@@ -12,6 +12,11 @@ header {
   align-items: center;
 }
 
+#digital-contact-methods {
+  font-size: 1em;
+  flex: 0 1 auto;
+}
+
 body > section {
   flex: 1;
 }
@@ -91,11 +96,15 @@ address {
   grid-column: 2 / 3;
 }
 
+.detail-text {
+  font-size: 1em;
+}
+
 .detail-text > ul {
   margin: 0;
 }
 
-.skills-list > li, .job-description-list > li {
+.skills-list > li {
   list-style: none;
 }
 
@@ -113,8 +122,15 @@ address {
 
 @media all and (max-width: 768px) {
   .three-pane-container > div, .three-pane-container > address {
-    font-size: 1.7vw;
     min-width: 0;
+  }
+
+  #digital-contact-methods {
+    font-size: 0.8em;
+  }
+
+  .detail-text {
+    font-size: 0.75em;
   }
 
 }
@@ -149,5 +165,6 @@ address {
 
   #digital-contact-methods {
     min-width: 0;
+    font-size: 1.5vw;
   }
 }
