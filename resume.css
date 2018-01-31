@@ -133,7 +133,7 @@ address {
     font-size: 0.75em;
   }
 
-  .subsection-header {
+  .subsection-header > h3 {
     font-size: 1.3em;
   }
 
