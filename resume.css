@@ -57,7 +57,7 @@ footer {
 
 .section-header {
   border-bottom: 1px solid black;
-  margin-top: 0.75em;
+  margin-top: 1em;
   margin-bottom: 0;
 }
 
@@ -156,6 +156,10 @@ footer {
   .section-header {
     margin-bottom: 0;
     margin-top: 0.25em;
+  }
+
+  .subsection-header {
+    margin-top: 0.5em;
   }
 
   .detail-text {
