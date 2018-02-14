@@ -126,9 +126,9 @@ h2 {
 
 .background-grid {
   top: 75px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: repeat(6, 200px);
   max-height: 100%;
   position: absolute;
   whitespace: nowrap;
@@ -136,8 +136,7 @@ h2 {
 }
 
 .background-grid > img {
-  flex: 1 1 auto;
-  max-height: 200px;
+  width: 100%;
 }
 
 @media all and (max-width: 760px) {
