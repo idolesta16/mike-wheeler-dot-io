@@ -5,77 +5,70 @@
   <title>Michael Wheeler</title>
     <link href="https://unpkg.com/normalize.css@8.0.1/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
 </head>
 
 <body>
-  <header>
-      <!-- TODO -- Make the menu actually do something -->
-      <nav><i class="fas fa-bars fa-3x"></i></nav>
 
-      <div class="intro-banner">
-          <h1 class="intro-heading">Michael Wheeler,</h1>
-          <h1 class="intro-heading">Aspiring Data Scientist</h1>
-      </div>
-  </header>
-  <main>
-      <section id="who-i-am">
-          <div class="picture">
-              <img class="profile-pic" src="img/me.jpg">
-          </div>
-          <div class="copy">
-              <h2 class="section-heading">Who I Am</h2>
-              <p>I am a third-year Data Science major and University Scholar at Northeastern University. I was born
-              and raised on Cape Cod and graudated from Falmouth High School in 2016. I'm interested in data-driven
-              product development and always looking to add new skills to my toolbox.</p>
-          </div>
+<div class="container-flex d-flex flex-column justify-content-start">
 
-      </section>
-      <section id="what-i-believe">
-          <h2 class="section-heading">What I Believe</h2>
-          <!-- TODO -- Add nice circular icons to represent each of my personal beliefs -->
-          <p>
-              I believe in the art and the joy of computer programming.
-          </p>
-          <p>
-              I believe in small data and its hidden power.
-          </p>
-          <p>
-              I believe that the purpose of technology is to enhance the human experience, not to replace it.
-          </p>
-          <p>
-              I believe that intelligence is more than a single subject or a piece of paper.
-          </p>
-      </section>
-      <section id="what-ive-done">
-          <h2 class="section-heading">What I've been up to</h2>
-          <!-- TODO -- Make these drop down menus -->
-          <p>
-              Right now I'm finishing up my first co-op at Solaria Labs, an innovation incubator owned by
-              Liberty Mutual Insurance.
-          </p>
-          <p>
-              Soon I'll be starting classes for the spring semester. My courses are math-heavy this time around --
-              Linear Algebra and Statistics and Stochastic Processes -- but I'm most excited for my
-              data visualization class.
-          </p>
-          <p>
-              I've also been working on BookTiger. The project is still in its very early stages so stay tuned.
-          </p>
-          <p>
-              I'm starting collaborative work with Boston Microgreens. As their new Lead Software Developer I'm working to
-              build tools that will enhance their growing operations.
-          </p>
-      </section>
-      <section id="whats-next">
-          <h2 class="section-heading">What's Next</h2>
-          <!-- TODO -- write copy -->
-      </section>
-  </main>
-  <footer>
-      <!-- TODO -- add copyright -->
-      <!-- TODO -- add social links -->
-  </footer>
+    <!-- Big Intro -- inspiring picture of me with my name in the center -->
+    <div class="row jumbotron-pic d-flex justify-content-center">
+        <div class="col-10 col-lg-7 d-flex align-items-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="intro-heading">Michael Wheeler,</h1>
+                    <h1 class="intro-heading">Aspiring Data Scientist</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Who I am -- picture of me on the left with some copy on the right-->
+    <div class="row d-flex justify-content-between">
+        <div class="d-none d-md-block col-md-5 col-lg-4">
+            <img class="fill-pic" src="img/profile_plants_bpl.jpg"
+                 alt="A closeup of Michael Wheeler with plants in the background">
+        </div>
+        <div class="col-12 col-md-7 col-lg-8 d-flex flex-column align-items-center justify-content-center">
+            <section>
+                <h2>Who I Am</h2>
+                <div>
+                    <p>
+                        I'm an undergraduate Data Science major at Northeastern Unviersity. Born and raised on Cape Cod,
+                        Massachusetts, I first learned to code through an introductory Python class my senior year of
+                        high school. Much to the chagrin of my AP Statistics teacher I discovered that I could use my newfound
+                        knowledge to automate my work in her class, and I've been enamored with the intersection of computer
+                        science and statistics ever since.
+                    </p>
+                    <p>
+                        I graduated high school in 2016 and was accepted to Northeastern under the
+                        <a href="https://www.northeastern.edu/universityscholars/" target="_blank">University Scholars program</a>:
+                        a full-tuition academic scholarship program and a vibrant community of bright minds seeking to improve
+                        the lives of others. I have completed two internships at the
+                        <a href="https://acomms.whoi.edu/" target="_blank">Woods Hole Oceanographic Institution</a> and a
+                        co-op at <a href="https://www.solarialabs.com/" target="_blank">Solaria Labs</a> of Liberty
+                        Mutual Insurance.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- TODO -- What I believe -->
+    <!-- TODO -- What I'm up to -->
+
+    <footer class="row d-flex justify-content-center">
+        <div class="col-6 d-flex justify-content-around">
+            <a href="https://github.com/mikewheel" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/michael-b-wheeler/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+</div>
 </body>
 </html>
