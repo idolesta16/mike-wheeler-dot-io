@@ -68,16 +68,17 @@ preprocess sonar recordings for a system developed under DARPA's Future Arctic S
 I manned the info desk, assisted visitors, and provided support for special events.
 
 ### Boston Housing Authority
-I answered the Spanish line, translating requests for maintennance and application status checks from Boston residents 
+I answered the Spanish line, translating requests for maintenance and application status checks from Boston residents 
 to Housing Authority staff. I also occasionally did live interpreting for community events and for meetings with 
 Housing officers.
 
 ### Eagle Scout Project
 I led a crew in the removal of over 200 golf balls from old driving range as part of its conversion to a public park. My
 crew also cleaned up invasive species and saved a tree from a vine grown three inches thick.
-   
-## Awards, Recognition, Other
-   - Eagle Scout
-   - Roll of Honor
-   - University Scholars Program
-   - Hack Beanpot 2019's "Hack to Give Back" Award
+
+## Other Experience
+### Hackathons
+
+### Side Projects
+
+### Continuing Education
