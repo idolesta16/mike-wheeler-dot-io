@@ -41,7 +41,8 @@ TODO -- these should be reverse sorted by course number
    - Interviews candidates alongside VP of Tech
 
 ### Boston Microgreens
-   - CTO — led sprint meetings, hired co-ops, MVP in two months
+   - CTO — MVP in two months
+   - led sprint meetings, hired co-ops, managed GH workflow, pair programmed
 
 ### Liberty Mutual
    - Total Home Score data viz
@@ -57,8 +58,14 @@ TODO -- these should be reverse sorted by course number
    - FAST project pipeline for arctic sonar recordings
 
 ## Volunteer Experience
-### Bosotn Public Market
+### Boston Public Market
+   - Manned the info desk and assisted visitors
+   - Provided support special events
 
 ### Boston Housing Authority
+   - Answered the phone in Spanish for status checks
+   - Did live interpreting for community events and meetings with housing officers
 
 ### Eagle Scout Project
+   - Removed over 200 golf balls from old driving range
+   - Cleaned up invasive species like Japanese Knotwood, saved a tree
