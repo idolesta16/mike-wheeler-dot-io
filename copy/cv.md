@@ -78,7 +78,12 @@ crew also cleaned up invasive species and saved a tree from a vine grown three i
 
 ## Other Experience
 ### Hackathons
-
-### Side Projects
+- HackBeanpot 2019 — won the "Hack to Give Back" Award
+- HackUMass 2018
+- BostonHacks 2017, 2018
+- HuskyHacks 2016
 
 ### Continuing Education
+Studying to become an AWS Certified Solutions Architect
+Learning how to Bullet Journal and meal-prep
+Planning on attending YHack and HackUMass this Fall
