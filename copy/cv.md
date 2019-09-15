@@ -39,8 +39,8 @@
 ## Work Experience
 ### Health Data Analytics Institute (July 2019 to present)
 I'm designing and implementing an API for delivering model predictions to clients in healthcare with a focus on 
-extensibility across different algorithms and data formats. I'm also applying dimensionality reduction techniques in 
-SAS to better understand the relationships between broad sets of disease codes and a smaller set of chronic conditions 
+extensibility across different algorithms and data formats. I'm also applying dimensionality reduction techniques to 
+better understand the relationships between broad sets of disease codes and a smaller set of chronic conditions 
 in US Medicare data.
 
 ### Boston Microgreens (December 2018 to April 2019)
@@ -83,7 +83,7 @@ crew also cleaned up invasive species and saved a tree from a vine grown three i
 - BostonHacks 2017, 2018
 - HuskyHacks 2016
 
-### Continuing Education
+### In Progress
 Studying to become an AWS Certified Solutions Architect
 Learning how to Bullet Journal and meal-prep
 Planning on attending YHack and HackUMass this Fall
