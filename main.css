@@ -1,11 +1,142 @@
+
+/* Set the margins, default color, and font */
 body {
     background-color: white;
     color: black;
-    font-family: Helvetica, sans-serif;
-
-    margin: 0 10%;
+    font-family: 'Work Sans', sans-serif;
+    margin: 2vh 10vw;
 }
 
+/* Make the font size in the paragraphs a little bigger */
+p {
+    font-size: 1.25rem;
+}
+
+/* Make all the links a pretty shade of blue */
 a {
     color: darkblue;
+}
+
+
+/* Remove decoration and padding from the lists*/
+nav ul, .bio-list, .cv-course-list, .cv-experience-list, .cv-hackathon-list, .cv-in-progress-list {
+    list-style: none;
+}
+nav ul, .bio-list, .cv-experience-list {
+    padding-left: 0;
+}
+
+/* Make the navigation list elements display inline and flex */
+nav ul {
+    display: flex;
+    justify-content: start;
+}
+nav li {
+    display: inline;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+
+/* Center my big name and profile picture at the top of the page */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header font and font sizes for large screens */
+#big-name, .section-header, .cv-subsection-header {
+    font-family: 'Heebo', sans-serif;
+}
+#big-name {
+    font-size: 6rem;
+    margin: 1rem 0;
+    letter-spacing: 0.4rem;
+}
+.section-header {
+    font-size: 2.75rem;
+    margin: 0;
+    letter-spacing: 0.2rem;
+}
+.cv-subsection-header {
+    font-size: 1.5rem;
+}
+
+/* Header font sizes for medium-sized screens */
+@media screen and (max-width: 1040px) {
+    #big-name {
+        font-size: 4rem;
+    }
+
+    .bio-item-date {
+        font-size: 2rem;
+    }
+}
+
+/* Header font sizes for small-sized screens */
+@media screen and (max-width: 736px) {
+    #big-name {
+        font-size: 2.5rem;
+    }
+
+    .bio-item-date {
+        font-size: 1.25rem;
+    }
+}
+
+/* Make the dates and the text in the bio section flex together */
+.bio-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.bio-item-date {
+    flex: 0 0 15rem;
+}
+
+/* Make the grades justify away from the courses in the CV */
+.cv-course-list {
+    max-width: 30rem  /* FIXME -- respond better */
+}
+.cv-course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cv-course-grade {
+    flex: 0 0 2em;
+}
+
+/* Give the dropdown sections in the CV a little space between each other
+   as well as a slight indent in from the headers above them. */
+details {
+    margin: 1em 0 0 1em;
+}
+
+/* Make the lists underneath the details sections line up with with the summary text above them. */
+details ul, details ol, details p {
+    padding-left: 1.25em;
+}
+
+/* Center the copyright notice in the footer */
+footer {
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Align the headers under that don't have dates with the summary tag triangles*/
+summary h3 {
+    display: inline;
+}
+
+/* And do the same for those with dates,
+   but also make the dates justify away from the text of those headers. */
+.cv-experience-summary-with-date {
+    width: calc(100% - 2em);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
