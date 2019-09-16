@@ -1,5 +1,9 @@
+/*
+  Main stylesheet for my personal page.
+  Written by Michael Wheeler.
+ */
 
-/* Set the margins, default color, and font */
+/* Set the margins, default colors, and font */
 body {
     background-color: white;
     color: black;
@@ -7,14 +11,14 @@ body {
     margin: 2vh 10vw;
 }
 
-/* Make the font size in the paragraphs and other text a little bigger */
-p, .cv-hackathon-list li, .cv-in-progress-list li {
-    font-size: 1.25rem;
-}
-
 /* Make all the links a pretty shade of blue */
 a {
     color: darkblue;
+}
+
+/* Make the font size in the paragraphs and other text a little bigger */
+p {
+    font-size: 1.25rem;
 }
 
 /* Remove decoration and in some cases the padding from the lists*/
@@ -64,41 +68,25 @@ header {
     font-size: 1.25rem;
 }
 
-/* Header font sizes for medium-sized screens */
-@media screen and (max-width: 1040px) {
-    #big-name {
-        font-size: 4rem;
-    }
-
-    .bio-item-date {
-        font-size: 2rem;
-    }
-}
-
-/* Header font sizes for small-sized screens */
-@media screen and (max-width: 736px) {
-    #big-name {
-        font-size: 2.5rem;
-    }
-
-    .bio-item-date {
-        font-size: 1.25rem;
-    }
-}
-
 /* Make the dates and the text in the bio section flex together */
 .bio-item {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 .bio-item-date {
-    flex: 0 0 15rem;
+    flex: 1 0 20%;
+}
+
+.bio-item-desc {
+    flex: 0 1 auto;
+    text-align: right;
 }
 
 /* Make the grades justify away from the courses in the CV */
 .cv-course-list {
-    max-width: 30rem  /* FIXME -- respond better */
+    max-width: 30rem;
 }
 .cv-course {
     display: flex;
@@ -115,9 +103,37 @@ details {
     margin: 1em 0 0 1em;
 }
 
+/* Remove the triangle that goes with the summary dropdowns */
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* And replace it with a better icon that changes on open */
+details .details-icon:after {
+    content: " ▶";
+}
+details[open] .details-icon:after {
+    content: " ▼"
+}
+
 /* Make the lists underneath the details sections line up with with the summary text above them. */
 details ul, details ol, details p {
     padding-left: 1.25em;
+}
+
+/* Make the dates in the CV experiences justify away from the text of those headers. */
+.cv-experience-summary-with-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cv-experience-time {
+    text-align: right;
 }
 
 /* Center the copyright notice in the footer */
@@ -125,20 +141,5 @@ footer {
     min-height: 5vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-/* Align the headers under that don't have dates with the summary tag triangles*/
-summary h3 {
-    display: inline;
-}
-
-/* And do the same for those with dates,
-   but also make the dates justify away from the text of those headers. */
-.cv-experience-summary-with-date {
-    width: calc(100% - 2em);
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
