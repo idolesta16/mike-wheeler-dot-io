@@ -144,10 +144,11 @@ details ul, details ol, details p {
 footer {
     min-height: 5vh;
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
 
 #debug {
-    color: darkred;
+    color: grey;
 }
