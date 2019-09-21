@@ -12,7 +12,7 @@ body {
     background-color: white;
     color: black;
     font-family: 'Work Sans', sans-serif;
-    margin: 2vh 10vw;
+    margin: 2vh 15vw;
 }
 
 /* Make all the links a pretty shade of blue */
@@ -73,19 +73,18 @@ header {
 }
 
 /* Make the dates and the text in the bio section flex together */
-.bio-item {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+.bio-list {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: [bio-date] max-content [bio-desc] 1fr;
+    grid-gap: 0.25rem 1.25rem;
 }
+
 .bio-item-date {
-    flex: 1 0 20%;
 }
 
 .bio-item-desc {
-    flex: 0 1 auto;
-    text-align: right;
+    text-align: left;
 }
 
 /* Make the grades justify away from the courses in the CV */
