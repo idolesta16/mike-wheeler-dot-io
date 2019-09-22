@@ -95,15 +95,6 @@ header {
     text-align: left;
 }
 
-/* Make the grades justify away from the courses in the CV */
-.cv-course-list {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 10ch 1fr 2ch;
-    grid-gap: 0.5rem 1.5rem;
-    max-width: 50%;  /* TODO -- change this on a breakpoint */
-}
-
 /* Give the dropdown sections in the CV a little space between each other
    as well as a slight indent in from the headers above them. */
 details {
@@ -129,6 +120,16 @@ details[open] .details-icon:after {
 /* Make the lists underneath the details sections line up with with the summary text above them. */
 details ul, details ol, details p {
     padding-left: 1.25em;
+}
+
+
+/* Make the grades justify away from the courses in the CV */
+.cv-course-list {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 10ch 1fr 2ch;
+    grid-gap: 0.5rem 1.5rem;
+    max-width: 50%;  /* TODO -- change this on a breakpoint */
 }
 
 /* Make the dates in the CV experiences justify away from the text of those headers. */
