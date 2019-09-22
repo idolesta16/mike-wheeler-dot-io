@@ -117,7 +117,7 @@ details > summary::-webkit-details-marker {
 
 /* And replace it with a better icon that changes on open */
 details .details-icon:after {
-    content: " ▶";
+    content: " ➤";
 }
 details[open] .details-icon:after {
     content: " ▼"
