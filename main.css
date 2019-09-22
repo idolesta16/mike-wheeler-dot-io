@@ -115,6 +115,10 @@ details > summary::-webkit-details-marker {
     display: none;
 }
 
+.details-icon {
+    padding-left: 0.5em;
+}
+
 /* And replace it with a better icon that changes on open */
 details .details-icon:after {
     content: url(right-arrow.svg);
