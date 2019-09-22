@@ -7,6 +7,9 @@
     <title>Michael Wheeler</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:800|Work+Sans&display=swap" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="name-resizes.css">
+    <link rel="stylesheet" href="screens-768.css">
+    <link rel="stylesheet" href="screens-500.css">
 </head>
 
 <body>
@@ -21,7 +24,7 @@
 
 <header>
     <h1 id="big-name">Michael Wheeler</h1>
-    <img src="profile_plants_bpl.jpg" width="400" height="400"
+    <img id="profile-pic" src="profile_plants_bpl.jpg"
          alt="Michael Wheeler sitting and smiling next to some plants inside the Boston Public Library.">
 </header>
 
@@ -29,7 +32,7 @@
 <section id="about">
     <h1 class="section-header">About</h1>
 
-    <p>
+    <p class="about-text">
         I'm an undergraduate student majoring in
         <a href="https://www.khoury.northeastern.edu/program/data-science-bs/" target="_blank">Data Science</a> at
         Northeastern University in Boston. In the Fall of 2016 I came to Northeastern with a full-tuition scholarship as
@@ -39,14 +42,14 @@
         given over 300 hours of service to communities in Boston and elsewhere as part of Northeastern's Civic
         Engagement Program.
     </p>
-    <p>
+    <p class="about-text">
         I'm a creative and forward-thinking individual with a deep sense of responsibility for the things I create. To
         me, good software is interdisciplinary: a balance of modeling (math), performance (engineering), repeatability
         (science), and expressiveness (language). I also believe that data is about storytelling and understanding the
         real people whose lives are behind the numbers. When I'm not coding you'll
         find me dancing at concerts, conversing with close friends, and learning about the world by supporting quality
         journalism.</p>
-    <p>
+    <p class="about-text">
         Check me out on <a href="https://github.com/mikewheel" target="_blank">GitHub</a>.
     </p>
 </section>
@@ -444,7 +447,7 @@
 
         <details>
             <summary><b class="cv-summary-text">Hackathons</b><span class="details-icon"></span></summary>
-            <ol class="cv-hackathon-list">
+            <ol class="cv-other-list">
                 <li><p>HackBeanpot 2019
                     <a href="https://github.com/mikewheel/facebook-audit"
                        target="_blank"><strong>Winner!</strong></a></p>
@@ -457,7 +460,7 @@
 
         <details>
             <summary><b class="cv-summary-text">In Progress</b><span class="details-icon"></span></summary>
-            <ul class="cv-in-progress-list">
+            <ul class="cv-other-list">
                 <li><p>Studying to become an <abbr title="Amazon Web Services">AWS</abbr>
                     <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/">
                         Certified Solutions Architect</a></p></li>

@@ -1,0 +1,13 @@
+/*
+  Resizes and adjustments for the 496px breakpoint (smartphones).
+  Written by Michael Wheeler.
+ */
+@media (max-width: 500px) {
+    body {
+        margin: 0 2.5vh;
+    }
+
+    nav li {
+        font-size: 1rem;
+    }
+}

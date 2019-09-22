@@ -1,0 +1,45 @@
+/*
+  Resizes and adjustments for the 768px breakpoint (iPads).
+  Written by Michael Wheeler.
+ */
+
+@media (max-width: 768px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .about-text, .bio-item-desc {
+        font-size: 1rem;
+    }
+
+    .section-header {
+        font-size: 2rem;
+    }
+
+    .bio-list {
+        grid-template-columns: 1fr;
+    }
+
+    .bio-item-date {
+        font-size: 1.25rem;
+    }
+
+    .cv-course-list {
+        max-width: 100%;
+    }
+
+    .cv-experience-summary-with-date {
+        display: inline;
+    }
+
+    .cv-experience-place {
+        display: block;
+    }
+
+    .cv-experience-time {
+        display: block;
+        text-align: left;
+    }
+
+}
