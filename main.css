@@ -117,10 +117,10 @@ details > summary::-webkit-details-marker {
 
 /* And replace it with a better icon that changes on open */
 details .details-icon:after {
-    content: " ➤";
+    content: url(right-arrow.svg);
 }
 details[open] .details-icon:after {
-    content: " ▼"
+    content: url(down-arrow.svg);
 }
 
 /* Make the lists underneath the details sections line up with with the summary text above them. */
