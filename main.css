@@ -37,6 +37,7 @@ nav ul {
     display: flex;
     justify-content: start;
 }
+
 nav li {
     display: inline;
     font-size: 1.5rem;
@@ -111,6 +112,7 @@ details {
 details > summary {
     list-style: none;
 }
+
 details > summary::-webkit-details-marker {
     display: none;
 }
@@ -123,12 +125,13 @@ details > summary::-webkit-details-marker {
 details .details-icon:after {
     content: url(right-arrow.svg);
 }
+
 details[open] .details-icon:after {
     content: url(down-arrow.svg);
 }
 
 /* Make the lists underneath the details sections line up with with the summary text above them. */
-details ul, details ol{
+details ul, details ol {
     padding-left: 2.5%;
 }
 
