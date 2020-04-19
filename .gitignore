@@ -1,3 +1,4 @@
 *.pdf
 .idea/
 simple_server.sh
+blog/*template*.html
