@@ -25,9 +25,15 @@ a {
     color: darkblue;
 }
 
-/* Make the font size in the paragraphs and other text a little bigger */
+/* Justify all the paragaph text */
+p {
+    text-align: justify;
+}
+
+/* Make the font size in the paragraphs and other text a little bigger, justify */
 .about-text, .bio-item-desc {
     font-size: 1.25rem;
+    text-align: justify;
 }
 
 /* Make the navigation list elements display inline and flex */
@@ -86,10 +92,6 @@ header {
 
 .bio-item-date {
     margin: 0;
-}
-
-.bio-item-desc {
-    text-align: left;
 }
 
 /* "College Coursework", "Work Experience" */
